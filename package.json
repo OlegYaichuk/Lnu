@@ -1,0 +1,16 @@
+{
+  "name": "lnu-video",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Вертикальні відео (Reels/Shorts) з тексту: сцени -> кадри (Playwright) -> озвучка (ElevenLabs) -> MP4 (ffmpeg)",
+  "scripts": {
+    "check": "node scripts/check-setup.mjs",
+    "voice": "node scripts/voice.mjs",
+    "render": "node scripts/render.mjs"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
